@@ -6,7 +6,7 @@ from adafruit_display_text import label
 from adafruit_st7789 import ST7789
 BORDER = 20
 FONTSCALE = 2
-BACKGROUND_COLOR = 0x0FF00
+BACKGROUND_COLOR = 0xFFFFF
 FOREGROUND_COLOR = 0xAA0088
 TEXT_COLOR = 0xFFFF00
 displayio.release_displays()
@@ -29,3 +29,25 @@ from adafruit_display_shapes.triangle import Triangle
 from adafruit_display_shapes.line import Line
 from adafruit_display_shapes.polygon import Polygon
 
+
+rect = Rect(99, 55, 41, 41, fill=0x964B00, outline = 0x0)
+splash.append(rect)
+
+circle = Circle(117, 60, 15, fill=0x964B00, outline=0x0)
+splash.append(circle)
+
+circle = Circle(110, 58, 5, fill=0xFFFF, outline=0x0)
+
+circle1 = Circle(125, 58, 5, fill=0xFFFF, outline=0x0)
+
+splash.append(circle)
+splash.append(circle1)s
+
+triangle = Triangle(120, 55,55, 5, 0, 0, fill=0x00FF00, outline=0xFF00FF)
+splash.append(triangle)
+
+
+
+while True:
+    pass
+s
